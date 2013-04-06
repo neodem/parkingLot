@@ -1,0 +1,24 @@
+<game>
+	<board difficulty = "easy" id = "1">
+		<setup>
+			<vehicle type="key" vehicleID="X" facing="east" start="14"/>
+			<vehicle type="car" vehicleID="A" facing="east" start="1"/>
+			<vehicle type="car" vehicleID="B" facing="north" start="24"/>
+			<vehicle type="car" vehicleID="C" facing="west" start="28"/>
+			<vehicle type="truck" vehicleID="O" facing="north" start="5"/>
+			<vehicle type="truck" vehicleID="P" facing="south" start="18"/>
+			<vehicle type="truck" vehicleID="Q" facing="south" start="21"/>
+			<vehicle type="truck" vehicleID="R" facing="east" start="34"/>
+		</setup>
+		<solution>
+			<move number="1" vehicleID="C" direction="west" distance="3"/>
+			<move number="2" vehicleID="O" direction="south" distance="3"/>
+			<move number="3" vehicleID="A" direction="east" distance="1"/>
+			<move number="4" vehicleID="P" direction="north" distance="1"/>
+			<move number="5" vehicleID="B" direction="north" distance="1"/>
+			<move number="6" vehicleID="R" direction="west" distance="2"/>
+			<move number="7" vehicleID="Q" direction="south" distance="2"/>
+			<move number="8" vehicleID="X" direction="east" distance="3"/>
+		</solution>
+	</board>
+</game>
